@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\ext">
+      <UniqueIdentifier>{6cfe447a-70b2-488b-835f-2527578c54e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\shaders">
+      <UniqueIdentifier>{15bbd4bf-83db-44ae-8d9f-4bc4fe6ba1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\effects">
+      <UniqueIdentifier>{0fb44e51-4e9c-4b49-ae28-52dc4489c478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Scenes">
+      <UniqueIdentifier>{afaa3428-30f1-4bf2-9cd8-a300b89a4972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Origem.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipeline.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ext_canvas.cpp">
+      <Filter>Arquivos de Origem\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ext_d2d1.cpp">
+      <Filter>Arquivos de Origem\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ext_matrix.cpp">
+      <Filter>Arquivos de Origem\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ext_win32.cpp">
+      <Filter>Arquivos de Origem\ext</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pipeline.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="gsDefaults.h">
+      <Filter>Arquivos de Cabeçalho\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="vsDefaults.h">
+      <Filter>Arquivos de Cabeçalho\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectTexture.h">
+      <Filter>Arquivos de Cabeçalho\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSolidColor.h">
+      <Filter>Arquivos de Cabeçalho\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexDefault.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectColorGradient.h">
+      <Filter>Arquivos de Cabeçalho\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectFlatShading.h">
+      <Filter>Arquivos de Cabeçalho\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectGouraud.h">
+      <Filter>Arquivos de Cabeçalho\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGouraudSphere.h">
+      <Filter>Arquivos de Cabeçalho\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneIVTexGouraudSphere.h">
+      <Filter>Arquivos de Cabeçalho\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectIVTexGouraud.h">
+      <Filter>Arquivos de Cabeçalho\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectFinal.h">
+      <Filter>Arquivos de Cabeçalho\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTest.h">
+      <Filter>Arquivos de Cabeçalho\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
